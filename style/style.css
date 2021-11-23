@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    background-color: red;
+    height: 500px;
+    color: white;
+    font-size: 36px;
+}
+
+#photo {
+    width: 15vw;
+    height: 15vw;
+}
+
+#flexHead {
+    display: flex;
+    height: 100%;
+}
+
+.headEle {
+    width: 500px;
+    text-align: center;
+}
+
+.headEle p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lacus sed sem lobortis tempus non aliquet ante. Mauris quis velit dui. Duis nec est erat. Sed accumsan, tellus quis feugiat rhoncus, quam purus tempor quam, eget accumsan metus dolor vitae dolor. Sed interdum erat libero, fermentum dignissim justo iaculis vel. Morbi velit neque, viverra sit amet volutpat nec, commodo at nibh. Suspendisse tincidunt massa nec rhoncus posuere. Aenean dictum felis massa, vitae eleifend ante rutrum et. Donec facilisis at erat sed bibendum.
