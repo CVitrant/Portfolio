@@ -1,9 +1,31 @@
 header {
     width: 100%;
-    background-color: red;
-    height: 500px;
+    background-color: #2477b3;
+    padding-bottom: 50px;
+}
+
+header .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
     color: white;
     font-size: 36px;
+}
+
+header nav{
+    font-size: 20px;
+}
+
+section:nth-child(even) {
+    
+}
+
+section:nth-child(odd) {
+    background-color: #7f8b94;
+    color: #fff;
+}
+
+section .row {
+    height: 500px;
 }
 
 #photo {
@@ -24,6 +46,57 @@ header {
 .headEle p {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 50px;
 }
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lacus sed sem lobortis tempus non aliquet ante. Mauris quis velit dui. Duis nec est erat. Sed accumsan, tellus quis feugiat rhoncus, quam purus tempor quam, eget accumsan metus dolor vitae dolor. Sed interdum erat libero, fermentum dignissim justo iaculis vel. Morbi velit neque, viverra sit amet volutpat nec, commodo at nibh. Suspendisse tincidunt massa nec rhoncus posuere. Aenean dictum felis massa, vitae eleifend ante rutrum et. Donec facilisis at erat sed bibendum.
+.titleC {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #45484a;
+    padding: 50px;
+}
+
+#reFoot a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#sociaLfoot {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#sociaLfoot div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sociaLfoot img{
+    filter: invert(1);
+}
+
+#flexfoot {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flexfoot a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+

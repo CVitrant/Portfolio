@@ -11,34 +11,88 @@
 		<title>Clément Vitrant</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Clément Vitrant</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse justify-content-end" id="navbar">
-					<ul class="navbar-nav">
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Accueil</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Experience</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Formation</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Projets</a></li>
-					</ul>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark bg-none text-black" aria-label="Fourth navbar example">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">Clément Vitrant</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbar">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Accueil</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">À propos</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Formation</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Expérience</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Projets</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="container" id="flexHead">
+				<div class="row mx-auto  align-items-center justify-content-between">
+					<div class="headEle col-4">
+						<div>
+							<img id="photo" class="img-fluid rounded-circle" src="ressources/photoMoi.jpg" preserveAspectRatio="xMidYMid slice">
+						</div>
+						<span>"J'ai hâte de travailler avec vous."</span>
+					</div>
+					<div class="headEle col-4">
+						<p>
+							Clément Vitrant
+							<br>
+							Développeur Web
+						</p>
+					</div>
 				</div>
 			</div>
-		</nav>
-        <header>
-            <div class="container" id="flexHead">
-                <div class="row mx-auto align-items-center">
-                <div class="headEle col-"><div>
-                    <img id="photo" class="img-fluid rounded-circle" src="ressources/photoMoi.jpg" preserveAspectRatio="xMidYMid slice"></div>
-                    <span>"J'ai hâte de travailler avec vous."</span>
+		</header>
+		<section class="">
+			<div class="container">
+				<div class="row m-auto align-items-center justify-content-between">
+					<div class="col-4">
+						<h2 class="text-center titleC">à propos de moi</h2>
+					</div>
+					<div class="col-6">
+						<p class="text-end">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lacus sed sem lobortis tempus non aliquet ante. Mauris quis velit dui. Duis nec est erat. Sed accumsan, tellus quis feugiat rhoncus, quam purus tempor quam, eget accumsan metus dolor vitae dolor. Sed interdum erat libero, fermentum dignissim justo iaculis vel. Morbi velit neque, viverra sit amet volutpat nec, commodo at nibh. Suspendisse tincidunt massa nec rhoncus posuere. Aenean dictum felis massa, vitae eleifend ante rutrum et. Donec facilisis at erat sed bibendum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="">
+			<div class="container">
+				<div class="row m-auto align-items-center justify-content-between">
+					<div class="col-6">
+						<p class="text-end">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae lacus sed sem lobortis tempus non aliquet ante. Mauris quis velit dui. Duis nec est erat. Sed accumsan, tellus quis feugiat rhoncus, quam purus tempor quam, eget accumsan metus dolor vitae dolor. Sed interdum erat libero, fermentum dignissim justo iaculis vel. Morbi velit neque, viverra sit amet volutpat nec, commodo at nibh. Suspendisse tincidunt massa nec rhoncus posuere. Aenean dictum felis massa, vitae eleifend ante rutrum et. Donec facilisis at erat sed bibendum.
+						</p>
+					</div>
+					<div class="col-4">
+						<h2 class="text-center titleC">à propos de moi</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+        <footer>
+            <div class="container">
+                <div id="reFoot" class="text-end">
+                    <a href="#">Retour en haut</a>
                 </div>
-                <div class="headEle col-4">
-                    <p>Clément Vitrant<br>24 ans<br>Développeur Web</p>
+                <div id="sociaLfoot">
+                    <div><img src="ressources/iCgithub.svg"></div>
+                    <div><img src="ressources/iClinkedin.svg"></div>
+                </div>
+                <div id="flexfoot">
+                    <div><a class="nav-link" aria-current="page" href="#">Accueil</a></div>
+                    <div><a class="nav-link" aria-current="page" href="#">À propos</a></div>
+                    <div><a class="nav-link" aria-current="page" href="#">Formation</a></div>
+                    <div><a class="nav-link" aria-current="page" href="#">Expériences</a></div>
+                    <div><a class="nav-link" aria-current="page" href="#">Projets</a></div>
+                    <div><a class="nav-link" aria-current="page" href="#">Contact</a></div>
                 </div>
             </div>
-               </div> 
-        </header>
+        </footer>
 		<!--Bootstrap Bundle with Popper -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	</body>
