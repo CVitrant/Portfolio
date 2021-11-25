@@ -1,3 +1,5 @@
+/*header*/
+
 header {
     width: 100%;
     background-color: #2477b3;
@@ -13,19 +15,6 @@ header .container {
 
 header nav{
     font-size: 20px;
-}
-
-section:nth-child(even) {
-    
-}
-
-section:nth-child(odd) {
-    background-color: #7f8b94;
-    color: #fff;
-}
-
-section .row {
-    height: 500px;
 }
 
 #photo {
@@ -53,6 +42,61 @@ section .row {
     text-transform: uppercase;
 }
 
+
+/*sections*/
+
+
+section:nth-child(even) {
+    
+}
+
+section:nth-child(odd) {
+    background-color: #7f8b94;
+    color: #fff;
+}
+
+.Hrow {
+    height: 500px;
+}
+
+
+/*formation*/
+
+#formaTab {
+    background-color: #7f8b94;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.formalog {
+    min-height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
 footer {
     background-color: #45484a;
     padding: 50px;
@@ -79,11 +123,13 @@ footer {
 
 #sociaLfoot img{
     filter: invert(1);
+    border-radius: 15px;
+    padding: 5px;
 }
 
 #flexfoot {
-    width: 800px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -94,8 +140,29 @@ footer {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 15px;
 }
 
+#reFoot a:hover{
+    text-decoration: underline;
+}
+
+#flexfoot a:hover{
+    background-color: #fff;
+    color: #45484a;
+    transition: 0.8s;
+}
+
+#reFoot img{
+    filter: invert(1);
+}
+
+
+#sociaLfoot div:hover img{
+    filter: invert(27%) sepia(6%) saturate(334%) hue-rotate(161deg) brightness(94%) contrast(91%);
+    background-color: #fff;
+    transition: 0.8s;
+}
 
 
 
